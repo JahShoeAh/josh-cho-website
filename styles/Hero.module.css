@@ -1,0 +1,12 @@
+.scanLines {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    rgba(76, 255, 143, 0.08),
+    rgba(76, 255, 143, 0.08) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  opacity: 0.4;
+  pointer-events: none;
+}

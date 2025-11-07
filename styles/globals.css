@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#050505] font-['Space_Mono',monospace] text-slate-100 antialiased;
+  }
+
+  ::selection {
+    @apply bg-terminal-accent/60 text-terminal-base;
+  }
+}
