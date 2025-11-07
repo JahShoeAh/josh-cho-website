@@ -7,7 +7,7 @@ const resumeData = {
   systems: [
     {
       title: "C++ Lead: Oathbound Studios",
-      timeline: "May 2025 - October 2025",
+      timeline: "May 2025 - Oct 2025",
       description:
         "Led integrations for C++ classes in Unreal Engine as a point of contact.",
       linkLabel: "Oathbound Studios",
@@ -27,7 +27,7 @@ const resumeData = {
     },
     {
       title: "Simple C Compiler",
-      timeline: "August 2025 - December 2025",
+      timeline: "Aug 2025 - Dec 2025",
       description:
         "Built a compiler for a C-based language. Built on C++ with Lex and Yacc for parsing.",
       linkLabel: "github.com/JahShoeAh/Compiler",
@@ -49,7 +49,7 @@ const resumeData = {
   software: [
     {
       title: "BeatProof",
-      timeline: "October 2025",
+      timeline: "Oct 2025",
       description:
         "Solana based music market place developed with Next.js and deployed with Vercel.",
       linkLabel: "beatproof.app",
@@ -59,7 +59,7 @@ const resumeData = {
     },
     {
       title: "Heater App",
-      timeline: "August 2025 - September 2025",
+      timeline: "Aug 2025 - Sep 2025",
       description:
         "Swift app deployed on the Apple Appstore, with Firebase Backend.",
       linkLabel: "github.com/JahShoeAh/heater",
@@ -69,7 +69,7 @@ const resumeData = {
     },
     {
       title: "Market Place Messaging System",
-      timeline: "November 2023",
+      timeline: "Nov 2023",
       description:
         "Concurrent messaging app built fully with Java.",
       linkLabel: "github.com/JahShoeAh/MPMS",
@@ -89,7 +89,7 @@ const resumeData = {
     },
     {
       title: "Personal Website",
-      timeline: "November 2025",
+      timeline: "Nov 2025",
       description:
         "This very website!",
       linkLabel: "github.com/JahShoeAh/website",

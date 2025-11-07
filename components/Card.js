@@ -2,17 +2,24 @@ export default function Card({ title, timeline, description, linkLabel, linkUrl,
   const initials = icon || title.slice(0, 2).toUpperCase();
 
   return (
-    <article className="flex h-[290px] flex-col gap-4 rounded-2xl border border-terminal-border/70 bg-terminal-panel/70 p-6 shadow-[0_12px_35px_rgba(0,0,0,0.45)] transition hover:border-terminal-accent/60 hover:shadow-[0_18px_45px_rgba(0,0,0,0.55)] sm:h-[290px]">
-      <div className="flex items-center gap-4">
-        <div className="flex h-12 w-12 items-center justify-center rounded-full border border-terminal-accent/60 bg-terminal-panel text-sm font-bold text-terminal-accent">
+    <article className="flex h-[300px] flex-col gap-4 rounded-2xl border border-terminal-border/70 bg-terminal-panel/70 p-6 shadow-[0_12px_35px_rgba(0,0,0,0.45)] transition hover:border-terminal-accent/60 hover:shadow-[0_18px_45px_rgba(0,0,0,0.55)]">
+      <div className="flex items-start gap-4">
+        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-terminal-accent/60 bg-terminal-panel text-sm font-bold text-terminal-accent">
           {initials}
         </div>
-        <div>
-          <p className="text-[0.65rem] uppercase tracking-[0.4em] text-terminal-accent/80">{timeline}</p>
-          <h4 className="text-lg font-semibold text-white">{title}</h4>
+        <div className="min-w-0 space-y-1">
+          <p className="text-[0.65rem] uppercase tracking-[0.3em] text-terminal-accent/80 leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+            {timeline}
+          </p>
+          <h4 className="text-lg font-semibold text-white leading-snug overflow-hidden text-ellipsis" style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}>
+            {title}
+          </h4>
         </div>
       </div>
-      <p className="flex-grow overflow-hidden text-sm text-slate-300" style={{ maxHeight: "95px" }}>
+      <p
+        className="flex-grow overflow-hidden text-sm leading-relaxed text-slate-300"
+        style={{ display: "-webkit-box", WebkitLineClamp: 4, WebkitBoxOrient: "vertical" }}
+      >
         {description}
       </p>
       <div className="mt-auto space-y-3">
