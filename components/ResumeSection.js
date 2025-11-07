@@ -44,11 +44,11 @@ export default function ResumeSection({ data }) {
         <div className="space-y-6">
           <div className="space-y-2">
             <p className="text-xs font-semibold uppercase tracking-[0.4em] text-terminal-accent">
-              Resume Highlights
+        
             </p>
-            <h2 className="text-3xl font-bold text-white sm:text-4xl">Crafted across disciplines.</h2>
+            <h2 className="text-3xl font-bold text-white sm:text-4xl">Projects!</h2>
             <p className="text-base text-slate-400">
-              Designed, documented, and delivered systems that stay online when everyone else is sleeping.
+            
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
