@@ -2,7 +2,7 @@ export default function Card({ title, timeline, description, linkLabel, linkUrl,
   const initials = icon || title.slice(0, 2).toUpperCase();
 
   return (
-    <article className="flex h-[300px] flex-col gap-4 rounded-2xl border border-terminal-border/70 bg-terminal-panel/70 p-6 shadow-[0_12px_35px_rgba(0,0,0,0.45)] transition hover:border-terminal-accent/60 hover:shadow-[0_18px_45px_rgba(0,0,0,0.55)]">
+    <article className="flex h-[340px] flex-col gap-4 rounded-2xl border border-terminal-border/70 bg-terminal-panel/70 p-6 shadow-[0_12px_35px_rgba(0,0,0,0.45)] transition hover:border-terminal-accent/60 hover:shadow-[0_18px_45px_rgba(0,0,0,0.55)] sm:h-[320px]">
       <div className="flex items-start gap-4">
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-terminal-accent/60 bg-terminal-panel text-sm font-bold text-terminal-accent">
           {initials}

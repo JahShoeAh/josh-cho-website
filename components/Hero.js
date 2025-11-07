@@ -22,8 +22,8 @@ export default function Hero() {
           <AsciiDonut className="scale-[0.8] sm:scale-[1]" />
         </div>
       </div>
-      <div className="relative z-10 mx-auto flex w-full max-w-lg flex-col items-center gap-6 px-4 text-center sm:max-w-2xl sm:gap-8">
-        <div className="relative flex h-56 w-56 items-center justify-center overflow-hidden rounded-full border-4 border-white/70 shadow-[0_0_30px_rgba(255,255,255,0.15)] sm:h-80 sm:w-80">
+      <div className="relative z-10 mx-auto flex w-full max-w-xl flex-col items-center gap-6 px-4 text-center sm:max-w-2xl sm:gap-8">
+        <div className="relative flex h-64 w-64 items-center justify-center overflow-hidden rounded-full border-4 border-white/70 shadow-[0_0_30px_rgba(255,255,255,0.15)] sm:h-80 sm:w-80">
           <Image
             src="/profile.jpg"
             alt="Josh Cho"
