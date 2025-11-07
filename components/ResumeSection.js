@@ -40,7 +40,7 @@ export default function ResumeSection({ data }) {
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
     >
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 sm:px-0">
+      <div className="mx-auto flex w-full flex-col gap-10 px-4 sm:max-w-5xl sm:px-0">
         <div className="space-y-6">
           <div className="space-y-2">
             <p className="text-xs font-semibold uppercase tracking-[0.4em] text-terminal-accent">

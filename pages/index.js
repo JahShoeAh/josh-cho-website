@@ -107,16 +107,18 @@ export default function Home() {
         <title>Josh Cho • Systems & Software Engineer</title>
         <meta
           name="description"
-          content="Personal site for Josh Cho — systems-minded software engineer building resilient, human-friendly tools."
+          content="Josh Cho"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative min-h-screen bg-terminal-base">
         <Navbar />
         <main className="relative">
-          <div className="mx-auto w-full max-w-6xl px-6 sm:px-6">
-            <Hero />
-            <ResumeSection data={resumeData} />
+          <Hero />
+          <div className="-mx-4 sm:-mx-0">
+            <div className="w-full">
+              <ResumeSection data={resumeData} />
+            </div>
           </div>
         </main>
       </div>

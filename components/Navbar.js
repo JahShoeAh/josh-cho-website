@@ -10,11 +10,12 @@ const links = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-terminal-border bg-terminal-base/95 backdrop-blur-sm">
-      <nav className="flex w-full items-center justify-between px-6 py-4 text-xs font-semibold uppercase tracking-[0.35em] text-slate-200 sm:px-10 lg:px-16">
+      <nav className="flex w-full items-center justify-between px-4 py-2 text-[0.6rem] font-semibold uppercase tracking-[0.8em] text-slate-200 sm:px-10 sm:py-4 sm:text-xs sm:tracking-[0.35em] lg:px-16">
         <Link href="/" className="text-terminal-accent">
           JOSH CHO
         </Link>
-        <div className="flex gap-2 sm:gap-3">
+        <div className="flex flex-wrap justify-end gap-3 pl-2
+         sm:gap-3 sm:pl-0">
           {links.map((link) =>
             link.external ? (
               <a

@@ -19,11 +19,11 @@ export default function Hero() {
       </div>
       <div className="pointer-events-none absolute inset-0 hidden items-end justify-end pb-10 pr-2 opacity-60 mix-blend-screen sm:flex sm:pb-16 sm:pr-8 sm:opacity-80">
         <div className="flex w-[260px] max-w-full justify-end overflow-visible sm:w-[420px]">
-          <AsciiDonut className="scale-[0.8] sm:scale-[1]" />
+          <AsciiDonut className="scale-[1] sm:scale-[1]" />
         </div>
       </div>
-      <div className="relative z-10 mx-auto flex w-full max-w-xl flex-col items-center gap-6 px-4 text-center sm:max-w-2xl sm:gap-8">
-        <div className="relative flex h-64 w-64 items-center justify-center overflow-hidden rounded-full border-4 border-white/70 shadow-[0_0_30px_rgba(255,255,255,0.15)] sm:h-80 sm:w-80">
+      <div className="relative z-15 mx-auto flex w-full flex-col items-center gap-6 px-4 text-center sm:max-w-10xl sm:gap-8">
+        <div className="relative flex h-80 w-80 items-center justify-center overflow-hidden rounded-full border-4 border-white/70 shadow-[0_0_30px_rgba(255,255,255,0.15)] sm:h-80 sm:w-80">
           <Image
             src="/profile.jpg"
             alt="Josh Cho"
