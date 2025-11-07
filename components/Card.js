@@ -34,15 +34,17 @@ export default function Card({
       </p>
       <div className="mt-auto space-y-3">
         <div className="flex flex-wrap items-center gap-3 text-sm text-terminal-accent">
-          <div className="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
-              <path d="M12.293 2.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-.707.293H6a1 1 0 0 1-1-1v-3.586a1 1 0 0 1 .293-.707l8-8Z" />
-              <path d="M5 10H3a1 1 0 0 0-1 1v6c0 1.105.672 2 1.5 2h12c.828 0 1.5-.895 1.5-2v-2h-2v2H4v-6h1v-2Z" />
-            </svg>
-            <a href={linkUrl} target="_blank" rel="noreferrer" className="text-sm font-semibold hover:underline">
-              {linkLabel}
-            </a>
-          </div>
+          {linkUrl && (
+            <div className="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                <path d="M12.293 2.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-.707.293H6a1 1 0 0 1-1-1v-3.586a1 1 0 0 1 .293-.707l8-8Z" />
+                <path d="M5 10H3a1 1 0 0 0-1 1v6c0 1.105.672 2 1.5 2h12c.828 0 1.5-.895 1.5-2v-2h-2v2H4v-6h1v-2Z" />
+              </svg>
+              <a href={linkUrl} target="_blank" rel="noreferrer" className="text-sm font-semibold hover:underline">
+                {linkLabel || "Live site"}
+              </a>
+            </div>
+          )}
           {repoUrl && (
             <div className="flex items-center gap-2 pt-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">

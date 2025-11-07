@@ -45,6 +45,16 @@ const resumeData = {
       tags: ["C"],
       icon: "M()",
     },
+    {
+      title: "HTTP Server",
+      timeline: "July 2025",
+      description:
+        "Simple HTTP Server.",
+      linkLabel: "github.com/JahShoeAh/malloc",
+      linkUrl: "https://placeholder.example/mission-control",
+      tags: ["C"],
+      icon: "HTTP",
+    },
   ],
   software: [
     {
