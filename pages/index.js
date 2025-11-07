@@ -54,6 +54,8 @@ const resumeData = {
         "Solana based music market place developed with Next.js and deployed with Vercel.",
       linkLabel: "beatproof.app",
       linkUrl: "https://beatproof.vercel.app/",
+      repoLabel: "Github",
+      repoUrl: "https://github.com/awu41/colosseum-cypherpunk-2025",
       tags: ["Solana", "Next.js", "Vercel"],
       icon: "BP",
     },
@@ -92,10 +94,10 @@ const resumeData = {
       timeline: "Nov 2025",
       description:
         "This very website!",
-      linkLabel: "github.com/JahShoeAh/website",
-      linkUrl: "https://placeholder.example/resilience",
+      repoLabel: "Github",
+      repoUrl: "https://github.com/JahShoeAh/josh-cho-website",
       tags: ["Next.js", "Vercel"],
-      icon: "RR3D",
+      icon: "ME",
     },
   ],
 };

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const links = [
   { label: "Contact Me", href: "mailto:joshuacho52005@gmail.com", external: true },
-  { label: "Resume", href: "/resume.pdf", external: true },
+  { label: "Resume", href: "/SJC_Resume.pdf", external: true },
   { label: "GitHub", href: "https://github.com/JahShoeAh", external: true },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/sanghyun-cho-2367632a9/", external: true },
 ];
