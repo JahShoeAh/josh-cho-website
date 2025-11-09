@@ -58,6 +58,18 @@ const resumeData = {
   ],
   software: [
     {
+      title: "StudyBudy",
+      timeline: "Nov 2025",
+      description:
+        "Website to help find other students with class overlaps. Built for Builders Club Build-A-Thon backed by Anthropic.",
+      linkLabel: "studybudy.app",
+      linkUrl: "https://claude-purdue-2025.vercel.app/",
+      repoLabel: "Github",
+      repoUrl: "https://github.com/awu41/claude-purdue-2025",
+      tags: ["React.js", "Firebase"],
+      icon: "SB",
+    },
+    {
       title: "BeatProof",
       timeline: "Oct 2025",
       description:
@@ -68,18 +80,6 @@ const resumeData = {
       repoUrl: "https://github.com/awu41/colosseum-cypherpunk-2025",
       tags: ["Solana", "Next.js", "Vercel"],
       icon: "BP",
-    },
-    {
-      title: "StudyBudy",
-      timeline: "November 2025",
-      description:
-        "Website to help find other students with class overlaps. Built for Builders Club Build-A-Thon backed by Anthropic.",
-      linkLabel: "studybudy.app",
-      linkUrl: "https://claude-purdue-2025.vercel.app/",
-      repoLabel: "Github",
-      repoUrl: "https://github.com/awu41/claude-purdue-2025",
-      tags: ["React.js", "Firebase"],
-      icon: "SB",
     },
     {
       title: "Heater App",
