@@ -5,8 +5,8 @@ export default function ResumeSection({ data }) {
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const categories = [
-    { label: "Systems Engineering", entries: data.systems },
     { label: "Software Engineering", entries: data.software },
+    { label: "Systems Engineering", entries: data.systems },
   ];
   const [activeCategory, setActiveCategory] = useState(categories[0].label);
 
