@@ -61,7 +61,7 @@ const resumeData = {
       title: "StudyBudy",
       timeline: "Nov 2025",
       description:
-        "Website to help find other students with class overlaps. Built for Builders Club Build-A-Thon backed by Anthropic.",
+        "Website to help find other students with class overlaps. Winner of Anthropic's Build-A-Thon.",
       linkLabel: "studybudy.app",
       linkUrl: "https://claude-purdue-2025.vercel.app/",
       repoLabel: "Github",
@@ -86,8 +86,8 @@ const resumeData = {
       timeline: "Aug 2025 - Sep 2025",
       description:
         "Swift app deployed on the Apple Appstore, with Firebase Backend.",
-      linkLabel: "github.com/JahShoeAh/heater",
-      linkUrl: "https://placeholder.example/viz",
+      linkLabel: "Github",
+      linkUrl: "https://github.com/JahShoeAh/heater-demo/",
       tags: ["Swift", "Firebase"],
       icon: "H",
     },
