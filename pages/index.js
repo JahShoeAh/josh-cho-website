@@ -20,8 +20,6 @@ const resumeData = {
       timeline: "July 2025",
       description:
         "Unix-based Shell built with C++ and C utilizing Lex and Yacc for parsing.",
-      linkLabel: "github.com/JahShoeAh/Shell",
-      linkUrl: "https://placeholder.example/deep-space",
       tags: ["C++/C", "Lex", "Yac"],
       icon: "[>_]",
     },
@@ -30,8 +28,6 @@ const resumeData = {
       timeline: "Aug 2025 - Dec 2025",
       description:
         "Built a compiler for a C-based language. Built on C++ with Lex and Yacc for parsing.",
-      linkLabel: "github.com/JahShoeAh/Compiler",
-      linkUrl: "https://placeholder.example/deep-space",
       tags: ["C++", "Lex", "Yac"],
       icon: "SC",
     },
@@ -40,8 +36,6 @@ const resumeData = {
       timeline: "June 2025",
       description:
         "Personal Malloc project based off of dlmalloc.",
-      linkLabel: "github.com/JahShoeAh/malloc",
-      linkUrl: "https://placeholder.example/mission-control",
       tags: ["C"],
       icon: "M()",
     },
@@ -50,8 +44,6 @@ const resumeData = {
       timeline: "July 2025",
       description:
         "Simple HTTP Server.",
-      linkLabel: "github.com/JahShoeAh/malloc",
-      linkUrl: "https://placeholder.example/mission-control",
       tags: ["C"],
       icon: "HTTP",
     },
