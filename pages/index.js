@@ -86,8 +86,8 @@ const resumeData = {
       timeline: "Aug 2025 - Sep 2025",
       description:
         "Swift app deployed on the Apple Appstore, with Firebase Backend.",
-      linkLabel: "Github",
-      linkUrl: "https://github.com/JahShoeAh/heater-demo/",
+      repoLabel: "Github",
+      repoUrl: "https://github.com/JahShoeAh/heater-demo/",
       tags: ["Swift", "Firebase"],
       icon: "H",
     },
