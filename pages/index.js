@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ResumeSection from "@/components/ResumeSection";
+import AboutMe from "@/components/AboutMe";
 
 const resumeData = {
   systems: [
@@ -53,7 +54,7 @@ const resumeData = {
       title: "StudyBudy",
       timeline: "Nov 2025",
       description:
-        "Website to help find other students with class overlaps. Winner of Anthropic's Build-A-Thon.",
+        "Website to help find other students with class overlaps. Engineered cloud-based backend. Winner of Anthropic's Build-A-Thon.",
       linkLabel: "studybudy.app",
       linkUrl: "https://claude-purdue-2025.vercel.app/",
       repoLabel: "Github",
@@ -87,9 +88,7 @@ const resumeData = {
       title: "Market Place Messaging System",
       timeline: "Nov 2023",
       description:
-        "Concurrent messaging app built fully with Java.",
-      linkLabel: "github.com/JahShoeAh/MPMS",
-      linkUrl: "https://placeholder.example/resilience",
+        "Concurrent messaging app built fully with Java. Developed a backend with a client handler, able to process 50+ concurrent processes.",
       tags: ["Java"],
       icon: "MP",
     },
@@ -97,9 +96,7 @@ const resumeData = {
       title: "Rapper Run 3D",
       timeline: "May 2022",
       description:
-        "2D infinite sidescrolling game built entirely with the PyGame Library",
-      linkLabel: "github.com/JahShoeAh/RR3D",
-      linkUrl: "https://placeholder.example/resilience",
+        "2D infinite sidescrolling game built entirely with the PyGame Library. Built in 2-weeks for the Rose-Hulman Catapult end of summer showcase.",
       tags: ["Python"],
       icon: "RR3D",
     },
@@ -136,6 +133,7 @@ export default function Home() {
               <ResumeSection data={resumeData} />
             </div>
           </div>
+          <AboutMe />
         </main>
       </div>
     </>
